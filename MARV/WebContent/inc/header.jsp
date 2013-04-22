@@ -34,14 +34,29 @@
 	})();
 	/* End OpenId authentication script */
 </script>
-<a href="?command=Home">Home</a>
-<a href="?command=ListInstitutions">Institutions</a>
-<a href="?command=ListUsers">Users</a>
-<a href="?command=ListAuctionCategories">Auction Categories</a>
-<% if(session.getAttribute("authenticated.user") != null) { %>
-	<% User user = (User) session.getAttribute("authenticated.user"); %>
-	<%= user.getUsername() %>
-	<a href="?command=SignOut">Sign-Out</a>
-<% } else { %>
-	<a class="janrainEngage" href="#">Sign-In</a>
-<% } %>
+<header>
+	<div class="top-bar">
+		<div class="logo"></div>
+		<% if(session.getAttribute("authenticated.user") != null) { %>
+			<% User user = (User) session.getAttribute("authenticated.user"); %>
+			<div class="logged-in-actions">
+				<div class="btn user">
+					<h5><%= user.getUsername() %></h5>
+				</div>
+				<div class="btn user-messages">
+					<h5>Inbox</h5>
+				</div>
+				<div class="btn user-settings">
+					<h5>Settings</h5>
+				</div>
+				<a href="?command=SignOut" class="btn sign-out">
+					<h5>Sign Out</h5>
+				</a>
+			</div>
+		<% } else { %>
+			<div class="logged-out-actions">
+				<a class="janrainEngage btn sign-in" href="#"><h5>Sign-In</h5></a>
+			</div>
+		<% } %>
+	</div>
+</header>
