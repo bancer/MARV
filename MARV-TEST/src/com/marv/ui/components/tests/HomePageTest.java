@@ -1,13 +1,11 @@
 package com.marv.ui.components.tests;
 
+import static net.sourceforge.jwebunit.junit.JWebUnit.*;
 import static org.junit.Assert.*;
-
-import java.util.regex.Matcher;
-
 import net.sourceforge.jwebunit.api.IElement;
 
-import org.junit.*;
-import static net.sourceforge.jwebunit.junit.JWebUnit.*;
+import org.junit.Before;
+import org.junit.Test;
 
 public class HomePageTest {
 
