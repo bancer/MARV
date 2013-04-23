@@ -22,8 +22,8 @@
 	<div class="content">
 		<%@ include file="inc/sidebar.jsp"%>
 		<div class="mainbar">
+		<h1>Auction Items</h1>
 			<table class="table">
-				<caption>Auction Items</caption>
 				<tr>
 					<th>Name</th>
 					<th>Description</th>

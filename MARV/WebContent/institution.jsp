@@ -20,6 +20,7 @@
 	<div class="content">	
 		<%@ include file="inc/sidebar.jsp" %>
 		<div class="mainbar">
+		<h1>Add Institution</h1>
 			<form action="" method="post">
 				<input type="hidden" name="id" value="<%= helper.getId() %>" />
 				<span class="error"><%= helper.getError("id") %></span>

@@ -20,9 +20,10 @@
 	<div class="content">
 		<%@ include file="inc/sidebar.jsp"%>
 		<div class="mainbar">
+			<h1>Add User</h1>
 			<form action="" method="post" class="form-horizontal">
 				<fieldset>
-					<legend>Add institution</legend>
+					<%--<legend>Add User</legend> --%>
 					<input type="hidden" name="id" value="<%=helper.getId()%>" /> <span
 						class="error"><%=helper.getError("id")%></span> <input
 						type="hidden" name="type" value="0" /> <span class="error"><%=helper.getError("type")%></span>

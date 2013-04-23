@@ -21,8 +21,8 @@
 	<div class="content">
 		<%@ include file="inc/sidebar.jsp"%>
 		<div class="mainbar">
+			<h1>Institutions</h1>
 			<table class="table table-striped table-hover">
-				<caption>Institutions</caption>
 				<tr>
 					<th>ID</th>
 					<th>Name</th>

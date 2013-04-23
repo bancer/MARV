@@ -17,6 +17,7 @@
 	<div class="content">
 		<%@ include file="inc/sidebar.jsp"%>
 		<div class="mainbar"></div>
+		<h1>Home</h1>
 	</div>
 	<%@ include file="inc/scripts.jsp"%>
 </body>
