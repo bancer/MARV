@@ -31,7 +31,7 @@ public class ListAuctionCategoriesHelper {
 	private String printCategoriesTree(ArrayList<AuctionCategory> tree) {
 		String result = "";
 		if (tree != null && tree.size() > 0) {
-			result += "<ul class='categoriesTree resultsList'>";
+			result += "<ul class='categoriesTree'>";
 			for (AuctionCategory category : tree) {
 				result += "<li>";
 				result += "<a class='fancybox' href='#inline' title=''>";
