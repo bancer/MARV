@@ -1,5 +1,6 @@
 <%@page import="com.marv.business.entities.User"%>
 <div class="navbar navbar-fixed-top navbar-inverse">
+
 	<div class="navbar-inner">
 		<div class="container">
 			<!-- Menu button for smaller screens -->
