@@ -22,7 +22,7 @@
 		<%@ include file="inc/sidebar.jsp"%>
 		<div class="mainbar">
 			<h1>Auction Item</h1>
-			<dl>
+			<dl class="">
 				<dt>Title</dt>
 				<dd><%=helper.getAuctionItem().getName()%></dd>
 				<dt>Description</dt>
@@ -37,10 +37,16 @@
 				<dd><%=helper.getAuctionItemEndDate()%></dd>
 			</dl>
 			<h1>Bid</h1>
-			<form action="?command=Bid" method="post">
-				<label for="your-bid">Your bid: </label>
-				<input type="text" name="institutionName" id="your-bid" />
-				<input type="submit" value="Submit" />
+			<form class="form-horizontal" action="?command=Bid" method="post">
+				<div class="control-group">
+					<label class="control-label" for="your-bid">Your bid: </label>
+					<div class="controls">
+						<input class="" type="text" name="institutionName" id="your-bid" placeholder="Your bid" />
+					</div>
+				</div>
+				<div class="form-actions">
+					<input type="submit" value="Submit" class="btn-success" />
+				</div>
 			</form>
 		</div>
 	</div>

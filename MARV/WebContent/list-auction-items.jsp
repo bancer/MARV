@@ -23,7 +23,7 @@
 		<%@ include file="inc/sidebar.jsp"%>
 		<div class="mainbar">
 		<h1>Auction Items</h1>
-			<table class="table">
+			<table class="table table-striped table-hover">
 				<tr>
 					<th>Name</th>
 					<th>Description</th>
