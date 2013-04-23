@@ -18,7 +18,6 @@
 <body>
 	<%@ include file="inc/header.jsp" %>
 	<%@ include file="inc/aboveheader.jsp" %>
-<<<<<<< HEAD
 	<div class="content">
 		<%@ include file="inc/sidebar.jsp" %>
 		<div class="mainbar">	
