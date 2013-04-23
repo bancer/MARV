@@ -24,7 +24,7 @@
 			</li>
 			<li class="ngreen">
 				<a href="?command=ListInstitutions">
-					<i class="icon-list-alt"></i> List Institutions
+					<i class="icon-list-alt"></i>Institutions
 				</a>
 			</li>
 			<li class="norange">
@@ -32,12 +32,12 @@
 			</li>
 			<li class="norange">
 				<a href="?command=ListUsers">
-					<i class="icon-user"></i> List Users
+					<i class="icon-user"></i>Users
 				</a>
 			</li>
 			<li class="nlightblue">
 				<a href="?command=ListAuctionCategories">
-					<i class="icon-list"></i> List Auction Categories
+					<i class="icon-list"></i>Auction Categories
 				</a>
 			</li>
 		</ul>

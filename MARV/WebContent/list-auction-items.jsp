@@ -8,7 +8,9 @@
 <html lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>List Auction Items</title>
+	
 	<base href="<%=request.getContextPath()%>/" />
 	<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.min.css" rel="stylesheet">
 	<link href="//netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" rel="stylesheet">
@@ -20,8 +22,8 @@
 	<div class="content">
 		<%@ include file="inc/sidebar.jsp"%>
 		<div class="mainbar">
+		<h1>Auction Items</h1>
 			<table class="table">
-				<caption>Auction Items</caption>
 				<tr>
 					<th>Name</th>
 					<th>Description</th>

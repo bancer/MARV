@@ -7,6 +7,7 @@
 <html lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Institution</title>
 	<base href="<%= request.getContextPath() %>/" />
 	<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.min.css" rel="stylesheet">
@@ -19,6 +20,7 @@
 	<div class="content">	
 		<%@ include file="inc/sidebar.jsp" %>
 		<div class="mainbar">
+		<h1>Add Institution</h1>
 			<form action="" method="post">
 				<input type="hidden" name="id" value="<%= helper.getId() %>" />
 				<span class="error"><%= helper.getError("id") %></span>
